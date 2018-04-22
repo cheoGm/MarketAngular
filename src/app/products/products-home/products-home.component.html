@@ -1,0 +1,4 @@
+<div [ngSwitch]="routeParam">
+    <app-product-list *ngSwitchCase="list"></app-product-list>
+    <app-product-add *ngSwitchCase="add"></app-product-add>
+</div>
